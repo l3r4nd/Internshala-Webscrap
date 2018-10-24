@@ -111,9 +111,11 @@ for index, link in enumerate(r.html):
 			VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);""", (values[0], values[1], values[2], values[3], values[4], values[5],
 				values[6], values[7], values[8], values[9], values[10], values[11], values[12], values[13], values[14]))
 		conn.commit()
-
+	
+	#Specifies the number of pages to be scraped in one run. 
 	if index >= 10:
 		break
+	#Remove the above till the above comment to have no limit.
 
 c.close()
 conn.close()
