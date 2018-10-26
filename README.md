@@ -2,6 +2,11 @@
 
 ***
 
+<p align="center">
+  <img width="500" height="172" src="https://internshala.com/static/images/common/internshala_logo.png">
+</p>
+
+
 **Currently the program scraps fields specified below:**
 * Company Name
 * Position
